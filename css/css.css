@@ -1,0 +1,56 @@
+body{
+    font-family: lato;
+}
+section{
+    margin: 0 auto;
+    width: 1080px;
+}
+.flex{
+    display: flex;
+}
+.space{
+    justify-content: space-between;
+}
+.boks{
+    width: 500px;
+}
+.margin-b-20{
+    margin-bottom: 20px;
+}
+.margin-t-20{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+
+/* Skriftstørreler */
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+    line-height: 150%;
+}
