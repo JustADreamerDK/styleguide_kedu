@@ -30,6 +30,9 @@ a:hover{
 ul{
     list-style: none;
 }
+img{
+    max-width: 1080px;
+}
 
 /* Skriftstørreler */
 h1{
