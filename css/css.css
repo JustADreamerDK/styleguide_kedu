@@ -54,6 +54,9 @@ p{
     font-size: 16px;
     line-height: 150%;
 }
+.bold{
+    font-weight: 600;
+}
 
 /* Billeder */
 img{
@@ -67,4 +70,29 @@ img{
 .farve{
     max-width: 200px;
     margin-right: 10px;
+}
+
+footer{
+    background: red;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+.content{
+    background: deeppink;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.yellow{
+    background: yellow;
+}
+.blue{
+    background: blue;
+}
+.pink{
+    background: pink
 }
