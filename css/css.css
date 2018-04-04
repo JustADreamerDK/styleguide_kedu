@@ -30,9 +30,6 @@ a:hover{
 ul{
     list-style: none;
 }
-img{
-    max-width: 1080px;
-}
 
 /* Skriftstørreler */
 h1{
@@ -56,4 +53,18 @@ h6{
 p{
     font-size: 16px;
     line-height: 150%;
+}
+
+/* Billeder */
+img{
+    max-width: 1080px;
+}
+.ikon{
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.farve{
+    max-width: 200px;
+    margin-right: 10px;
 }
