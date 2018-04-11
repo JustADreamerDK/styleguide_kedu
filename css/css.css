@@ -61,6 +61,7 @@ p{
 /* Billeder */
 img{
     max-width: 1080px;
+    max-height: 500px;
 }
 .ikon{
     max-width: 50px;
