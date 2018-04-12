@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <title>Styleguide KEDU</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/css.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        <section>
+        <h1 class="margin-t-20">Filter til forum</h1>
+        <div class="flex space margin-t-20">
+            <div class="boks">
+                <h2 class="margin-b-20">Kode</h2>
+                <textarea name="kode" cols="68" rows="20">
+
+                  <!-- CSS -->
+
+                  <style>
+
+                    .column {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin-top: 50px;
+                    }
+
+                    .cardColumn {
+                    background-color: rgb(241, 241, 242);
+                    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+                    height: 348px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+                    justify-content: flex-start;
+                    width: 100;
+                    }
+
+                    .hvidBox {
+                    background-color: rgb(255, 255, 255);
+                    margin: 5px 5px 0px 5px;
+                    display: flex;
+                    flex-direction: column;
+                  	padding-bottom: 9.5px;
+                  	}
+
+                  	.filterTitel{
+                  	font-size: 20px;
+                  	font-weight: bold;
+                  	padding-bottom: 8.5px;
+                  	}
+
+                  	.paddingFilter {
+                  	padding-left: 8px;
+
+                  	}
+
+                  	.filterMargin {
+                  		margin-left: 5px;
+                  	}
+
+                  	.knapFilter {
+                  	background-color: rgb(255, 255, 255);
+                  	box-shadow: 0px 0px 2px 0.45px rgba(0, 0, 0, 0.3);
+                  	border: none;
+                  	width: 136px;
+                  	text-align: center;
+                  	text-decoration: none;
+                  	display: inline-block;
+                  	font-size: 16px;
+                  	cursor: pointer;
+                  	padding: 8px 7px 8px 8px;
+                  	margin-top: 5px;
+
+                  	}
+
+                  	button:focus {outline:0;}
+
+                  	.knapFilter:hover {
+                  	box-shadow: 0px 0px 6px 0.45px rgba(0, 0, 0, 0.3);
+                  	}
+
+                  	.knapFilter:active {
+                  	box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
+                  	}
+
+
+                  	.search{
+                  	padding: 6px 6px 6px 6px;
+                    margin-top: 5px;
+                  	margin-left: 5px;
+                    font-size: 18px;
+                  	border-width: 0.5px;
+                  	border-style: solid;
+                  	width: 75%;
+                  	}
+
+                  	.search:focus {
+                  	outline: none;
+                  	}
+
+                  	.searchKnap {
+                  	padding: 6px 15px 6px 15px;
+                  	font-size: 18px;
+                  	border: none;
+                  	background-color: rgb(033, 099, 147);
+                  	color: white;
+                  	margin-left: -6px;
+                  	}
+
+                  	.searchKnap:hover{
+                  	box-shadow: 0px 0px 3.55px 0.45px rgba(0, 0, 0, 0.3);
+                  	}
+
+                  </style>
+
+                  <!-- HTML -->
+
+                  <div class = "column">
+                		<div class = "cardColumn">
+                			<div>
+                				<input class="search" type="text" placeholder="Søg..." name="search">
+                				<a href="" class="searchKnap">Søg</a>
+                			</div>
+                			<div class="filterMargin">
+                				<a href="" class="knapFilter"> Mest populære </a>
+                				<a href="" class="knapFilter"> Nyeste </a>
+                			</div>
+                			<div href="" class = "hvidBox">
+                				<div class="paddingFilter">
+                					<p class="filterTitel"> Fag </p>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="Dansk"><p class="filterMargin">Dansk</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="Kodning"><p class="filterMargin">Kodning</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="Matematik"><p class="filterMargin">Matematik</p>
+                						</div>
+                					</div>
+                				</div>
+                		<div href="" class = "hvidBox">
+                			<div class="paddingFilter">
+                				<p class="filterTitel"> Klassetrin </p>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="0. klasse"><p class="filterMargin">0. klasse</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="1. klasse"><p class="filterMargin">1. klasse</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="2. klasse"><p class="filterMargin">2. klasse</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="3. klasse"><p class="filterMargin">3. klasse</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="4. klasse"><p class="filterMargin">4. klasse</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="5. klasse"><p class="filterMargin">5. klasse</p>
+                						</div>
+                						<div class="flex center">
+                						<input type="checkbox" name="niveau" value="6. klasse"><p class="filterMargin">6. klasse</p>
+                						</div>
+                					</div>
+                				</div>
+                			</div>
+                		</div>
+
+                  </textarea>
+            </div>
+            <div class="boks">
+                <h2 class="margin-b-20">Kodeforklaring</h2>
+                <p>
+                  Et mindre filter som kun skal bruges i Forum.
+                </p>
+            </div>
+        </div>
+        <div class="margin-t-20">
+            <h2 class="margin-b-20">Billedeksempler</h2>
+            <img src="img/filtforum.png">
+        </div>
+        <a href="index.html"><h4 class="margin-t-20 margin-b-20">Tilbage</h4></a>
+        <section>
+    </body>
+</html>
