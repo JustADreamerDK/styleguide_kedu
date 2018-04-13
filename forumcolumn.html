@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <title>Styleguide KEDU</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/css.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        <section>
+        <h1 class="margin-t-20">Søg</h1>
+        <div class="flex space margin-t-20">
+            <div class="boks">
+                <h2 class="margin-b-20">Kode</h2>
+                <textarea name="kode" cols="68" rows="20">
+<!-- CSS -->
+
+<style>
+
+  .forumColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5px;
+	margin-left: 2.1%;
+  }
+
+  .cardColumn {
+  background-color: rgb(241, 241, 242);
+  box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  width: 100;
+  }
+
+	.graaKasser {
+  background-color: rgb(241, 241, 242);
+  height: 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100;
+  }
+
+	.usynligKasser {
+	height: 116px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100;
+	}
+
+	.pointMatematik{
+		background-color: rgb(200, 200, 200);
+	height: 116px;
+	width: 116px;
+
+	}
+	.pointDansk{
+		background-color: rgb(52, 103, 92);
+		height: 116px;
+		width: 116px;
+	}
+	.pointKodning{
+		background-color: rgb(120, 165, 163);
+		height: 116px;
+		width: 116px;
+	}
+
+	.nyKasse {
+			height: 116px;
+			width: 116px;
+
+	}
+
+	.pointKommentar{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.pointTekst{
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	}
+
+
+	.kommentarTekst{
+		font-size: 14px;
+		color: white;
+		text-align: center;
+		margin-top: 15px;
+
+	}
+
+	.forumTekst {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 85%;
+	}
+
+	.forumTitel {
+		font-size: 32px;
+		margin: 22px 20px 0px 20px;
+		font-weight: bold;
+	}
+
+	.forumBund {
+		display: flex;
+		justify-content: space-between;
+		margin: 20px 0px 10px 20px;
+
+	}
+	.flexBund {
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.paddingLeft {
+	padding: 0px 0px 5px 60px;
+	}
+
+	.paddingRight {
+	padding: 0px 60px 5px 0px;
+	}
+
+	.forumPlus{
+	width: 80%;
+	height: 80%;
+padding: 10px 0px 0px 10px;
+	}
+
+
+</style>
+
+
+<!-- HTML -->
+
+<main>
+	<div class="forumColumn">
+		<a href="" class="graaKasser">
+			<div class="nyKasse">
+				<img src="opret0.png" class="forumPlus">
+			</div>
+			<div class="forumTekst">
+				<p class="forumTitel">Lav et nyt opslag</p>
+
+			</div>
+	</a>
+
+	<a href="" class="usynligKasser">
+		<div class="pointMatematik">
+			<p class="pointTekst"> 8 </p>
+			<p class="kommentarTekst"> 12 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Minus gange minus giver plus</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Matematik</p>
+					<p class="paddingRight">4. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+
+
+	<a href="" class="graaKasser">
+		<div class="pointDansk">
+			<p class="pointTekst"> 2 </p>
+			<p class="kommentarTekst"> 90 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Kommatering</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Dansk</p>
+					<p class="paddingRight">2. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="usynligKasser">
+		<div class="pointDansk">
+			<p class="pointTekst"> 12 </p>
+			<p class="kommentarTekst"> 14 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Hej med jer</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Dansk</p>
+					<p class="paddingRight">1. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="graaKasser">
+		<div class="pointDansk">
+			<p class="pointTekst"> 7 </p>
+			<p class="kommentarTekst"> 20 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Dobbelt 'a' er å</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Dansk</p>
+					<p class="paddingRight">5. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="usynligKasser">
+		<div class="pointMatematik">
+			<p class="pointTekst">1</p>
+			<p class="kommentarTekst"> 30 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Paranteser, matematikkens jokere</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Matematik</p>
+					<p class="paddingRight">3. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="graaKasser">
+		<div class="pointKodning">
+			<p class="pointTekst"> 4 </p>
+			<p class="kommentarTekst"> 21 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Robotten drejer bare rundt...</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Kodning</p>
+					<p class="paddingRight">2. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="usynligKasser">
+		<div class="pointKodning">
+			<p class="pointTekst"> 3 </p>
+			<p class="kommentarTekst"> 17 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Hvad gør pilene?</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Kodning</p>
+					<p class="paddingRight">6. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="graaKasser">
+		<div class="pointMatematik">
+			<p class="pointTekst"> 6 </p>
+			<p class="kommentarTekst"> 56 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Skal robotten tale til mig? Hjælp...</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Dansk</p>
+					<p class="paddingRight">5. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	<a href="" class="usynligKasser">
+		<div class="pointKodning">
+			<p class="pointTekst"> 4 </p>
+			<p class="kommentarTekst"> 24 komm. </p>
+		</div>
+
+		<div class="forumTekst">
+				<p class="forumTitel">Jeg fodrede den og nu vil den ikke starte</p>
+				<div class="forumBund">
+
+				<div class="flexBund">
+					<p class="paddingRight">Kodning</p>
+					<p class="paddingRight">2. klasse</p>
+				</div>
+
+				<div class="flexBund">
+					<p class="paddingLeft">3. april 2017</p>
+					<p class="paddingLeft">af Bjarne S.</p>
+			</div>
+
+				</div>
+		</div>
+	</a>
+
+	</div>
+	</div>
+
+</main>
+
+                </textarea>
+            </div>
+            <div class="boks">
+                <h2 class="margin-b-20">Kodeforklaring</h2>
+                <p>
+En column til forum, med info omkring fag, forfatter osv.
+                </p>
+            </div>
+        </div>
+        <div class="margin-t-20">
+            <h2 class="margin-b-20">Billedeksempler</h2>
+            <img src="img/forumcolumn.png">
+        </div>
+        <a href="index.html"><h4 class="margin-t-20 margin-b-20">Tilbage</h4></a>
+        <section>
+    </body>
+</html>
